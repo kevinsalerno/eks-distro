@@ -47,4 +47,4 @@ if updating a released branch project.
 
 	* If the vulnerability alert is new and nothing exists upstream yet, create an issue for it using the proper process for submitting security issues for the repo in question. If you can tackle the fix, consider doing so and submitting the PR.
 
-	* There may be many false positives in the vulnerability alerts. So the main value of this process is discovering if upstream has fixed something that affects out of support K8s version that we still support (>9 months ago) and we need to backport the fix to our additional supported versions. 
+	* There may be many false positives in the vulnerability alerts. So the main value of this process is discovering if upstream has fixed something that affects out of support K8s version that we still support (>9 months ago) and we need to backport the fix to our additional supported versions.
